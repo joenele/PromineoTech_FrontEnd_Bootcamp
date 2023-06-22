@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+input{
+    margin-left: 0;
+}
+
+.jumbotron{
+    background-color: rgb(255, 84, 64);
+    color: white;
+    width: 70vw;
+    margin: 30px auto;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+/* DEFAULT BUTTON STYLES */
+button{
+    background-color: rgb(255, 84, 64);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 5px 15px;
+    box-shadow: 3px 5px #888888;
+    display: inline-block; /* Make the button a block element */
+    font-size: 16px; /* Set the font size */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    transition: transform 0.3s ease; /* button transition */
+}
+
+/* BUTTON STATE STYLES */
+button:hover{
+    transform: translateY(-5px); /* moves button slightly up on hover */
+}
+
+button:active {
+    transform: translateY(2px); /* moves button slightly down on click */
+    background-color: #3e8e41;
+}
+
+/* BUTTON BACKGROUND STYLES */
+#createButton {
+background-color: rgb(158, 228,124);
+}
+
+#updateButton{
+    background-color: rgb(219, 156, 254);
+}
+
+#deleteButton{
+    background-color: rgb(239, 47, 47);
+}

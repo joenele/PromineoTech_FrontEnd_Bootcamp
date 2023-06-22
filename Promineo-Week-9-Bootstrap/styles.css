@@ -1,0 +1,170 @@
+.container-fluid{
+    margin:0;
+    padding: 0;
+}
+.logo{
+    width: 250px;
+    height: 100%;
+}
+
+
+h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 52px;
+}
+
+.hero{
+    width: 500px;
+}
+
+.hero-bg{
+    background-color: rgb(252, 251, 252);
+    padding-bottom: 30px;
+    height: auto;
+}
+
+.intro{
+    color: rgb(100,111,107);
+    font-size: 24px;
+}
+
+.fa-brands{
+    color: grey;
+    margin:20px;
+}
+
+.call-to-action{
+    width: 47vw;
+    background-color: black;
+    font-size: 24px;
+}
+
+.cta{
+    color: gainsboro;
+}
+
+.btn-sign-up{
+    background-color: rgb(14,209,150);
+    border: none;
+    color: white;
+    font-size: 24px;
+    width: 150px;
+    height: 50px;
+}
+
+.btn-learn-more{
+    background-color: rgb(14,209,150);
+    color: gainsboro;
+    border: none;
+    width: 150px;
+    height: 100%;
+}
+
+.etfs{
+    background-color: rgb(1,-0, 16);
+    padding: 80px;
+}
+
+.table{
+    background-color: rgb(17, 19, 30);
+}
+
+th{
+    color:rgb(199, 200, 206);
+    border-bottom: 1px solid rgba(199, 200, 206, 0.2);
+}
+
+.table td{
+    color:rgb(199, 200, 206);
+    padding:30px;
+    border-bottom: 1px solid rgba(199, 200, 206, 0.2);
+}
+
+.ipo{
+    padding: 50px 0;
+}
+
+.ipo-icons{
+    background-color: rgb(14,209,150);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 35px;
+    position: absolute;
+    color: white;
+}
+
+.ipo-text{
+    position: relative;
+    left: 130px;
+    top: 5px;
+    width: 400px;
+}
+.mobile-chart{
+    width: 100%;
+}
+
+.subscribe{
+    background-color: rgb(17, 19, 30);
+    padding: 0;
+}
+
+.subscribe-heading{
+    color: rgb(14,209,150);
+    font-weight: 800;
+    padding: 80px 48px;
+}
+
+.subscribe-cta{
+    color:rgb(199, 200, 206);
+    font-size: 24px;
+    padding-left:48px;
+    padding-right: 48px;
+}
+
+.subscribe-form{
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.btn-subscribe{    
+    background-color: rgb(14,209,150);
+    border: none;
+    border-radius: 0;
+    color: white;
+    font-size: 17px;
+    width: 150px;
+}
+
+.btn-subscribe:hover{
+    background-color: white;
+    color: rgb(14,209,150);
+    border: 1px solid rgb(14,209,150);
+}
+
+#form1{
+    border-radius: 0;
+    font-size: 16px;
+}
+
+.form-outline{
+    margin-right: -25px;
+}
+
+.footer-links ul{
+    background-color: rgb(17, 19, 30);
+    color:rgb(199, 200, 206);
+    font-size: 24px;
+    list-style-type: none;
+    padding: 24px 48px;
+    line-height: 2;
+}
+
+.trading-img{
+    max-width: 100%;
+    height: 100%;
+}

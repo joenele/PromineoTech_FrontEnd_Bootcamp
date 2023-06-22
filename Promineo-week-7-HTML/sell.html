@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>List Your Phone</title>
+  </head>
+  <body>
+    <header>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <h1>Mobile Resellers | Sell</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="iphones.html">iPhones</a></li>
+                <li><a href="samsung.html">Samsung</a></li>
+                <li><a href="sell.html">Sell</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2>List Your Phone</h2>
+    <p>Sell your phone with ease on our platform. Fill out the form below to list your phone for sale:</p>
+
+    <section id="recent-sales">
+        <h2>Recent Sales</h2>
+        <p>See which cellphones are hot sellers in the market.</p>
+        <ul>
+          <li><a href="images/alan-iphone.webp" target="_blank">iPhone 13 Pro Max</a></li>
+          <li><a href="images/13mini.webp" target="_blank">iPhone 13 Mini</a></li>
+          <li><a href="images/s22ultra.jpeg" target="_blank">Samsung Galaxy S22 Ultra</a></li>
+        </ul>
+      </section>
+
+    <!-- INPUT FORM FOR SELLER PHONE LISTINGS-->
+    <form action="submit-form.php" method="post">
+      <label for="phone-make">Phone Make:</label>
+      <input type="text" id="phone-make" name="phone-make" required>
+      <br>
+
+      <label for="phone-model">Phone Model:</label>
+      <input type="text" id="phone-model" name="phone-model" required>
+      <br>
+
+      <label for="storage-capacity">Storage Capacity (GB):</label>
+      <input type="number" id="storage-capacity" name="storage-capacity" required>
+      <br>
+
+      <label for="condition">Condition:</label>
+      <select id="condition" name="condition" required>
+        <option value="new">New</option>
+        <option value="like-new">Like New</option>
+        <option value="good">Good</option>
+        <option value="fair">Fair</option>
+        <option value="poor">Poor</option>
+      </select>
+      <br>
+
+      <label for="price">Price ($):</label>
+      <input type="number" id="price" name="price" required>
+      <br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>

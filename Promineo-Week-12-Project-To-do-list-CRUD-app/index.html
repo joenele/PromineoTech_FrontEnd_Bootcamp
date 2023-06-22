@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO DO LIST APP</title>
+    <!-- BOOTSTRAP CSS-->
+    <link rel="shortcut icon" href="#" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- JUMBOTRON -->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">To-do Web Application</h1>
+          <p class="lead">This is a Web application, which allows users to perform CRUD actions on a to-do list using an API.</p>
+        </div>
+      </div>
+
+      <!-- TASK INPUT FORM -->
+      <div class="form-group">
+      Task:<input id="createInput"> <!--user enters name of task to CREATE-->
+          <button id="createButton">Create</button> <!--CREATE task button-->
+          <span class="error"></span>
+          <br/><br/><br/>
+      Task:<input id="updateTaskInput"> <!--user enters name of task to UPDATE-->
+      ID:  <input id="updateIdInput"> <!--user enters id of task to UPDATE-->
+          <button id="updateButton">Update</button> <!--UPDATE task button-->
+      <br/><br/>
+      ID: <input id="deleteInput"> <!--user enters id of task to DELETE-->
+          <button id="deleteButton">Delete</button><br/> <!--DELETE task button-->
+          <span class="error"></span>
+      <br/><br/>
+          <button id="readButton">Read/ Display All Tasks</button><br><br>
+      </div>
+
+      <!-- TABLE GENERATED FROM MOCK API DATA-->
+      <table class="table table-striped table-bordered table-hover">
+        <thead>
+          <th scope="col">Tasks</th>
+          <th scope="col">ID</th>
+        </thead>
+        <tbody id="tasks">
+
+        </tbody>
+      </table>
+
+    </div>
+    
+    <!-- JQUERY BOOTSTRAP SCRIPTS-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <!-- POPPER BOOTSTRAP SCRIPTS-->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <!--MINIFIED BOOTSTRAP SCRIPTS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,198 @@
+html{
+    font-size: 10px; /* global font size*/
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    background-color: rgb(255, 253, 255);
+    padding: 0;
+    margin: 0;
+    color: #36454F;
+}
+
+h1{
+    display: none; /* hide header */
+}
+
+h2{
+    font-size: 2.5rem; /* 2.5 * 10px (global font) = 25px */
+    text-align: center;
+}
+
+p{
+    font-size: 2rem;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    background-color: rgba(206, 228, 207, 0.3);
+    padding:  5rem 15rem;
+}
+
+.menu-items{
+    margin-left: 7rem;
+    margin-top: 2.5rem;
+}
+
+
+.menu-items li{
+    list-style-type: none;
+    float: left;
+}
+
+.menu-items li a{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.3rem;
+    padding: 1.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    display: block;
+    color:  #36454F;
+}
+
+.menu-items li:hover{ /* menu item hover styles */
+    background-color: rgb(117, 112, 180);
+    color: white;
+    border-radius: 50px;
+}
+
+#intro{
+    display: flex; /* keeps logo and menu in the same row*/
+}
+
+#intro p{
+    margin: auto; /* center intro paragraph */
+    margin-left: 70px;
+}
+
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: auto;
+}
+
+section{
+    padding: 2rem 10rem
+}
+
+#new-devices, 
+#about-us{
+    background-color: rgba(206, 228, 207, 0.3);
+}
+
+#new-devices, 
+#best-sellers, 
+#about-us{
+    padding: 8rem 0rem; /* top 80px and sides 0px */
+}
+
+
+.new-devices-list li, 
+.best-sellers-list li, 
+.recent-sales-list li /* sections list items */
+{
+    list-style-type: none;
+    font-size: 2rem;
+}
+
+.new-devices-list li a, 
+.best-sellers-list li a, 
+.recent-sales-list li a{ /* sections list anchor link font color */
+    color: green;
+}
+
+#new-devices, 
+#best-sellers, 
+#recent-sales, 
+#about-us, 
+#contact-us { /* section ids and footer common text align */
+    text-align: center;
+}
+
+
+/* TABLE STYLING */
+
+table{
+    margin: auto;
+    margin-top: 50px;
+    border-collapse: collapse; /* share table borders when cells intersect */
+}
+
+th{
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-transform: uppercase; /* capitalize table headings */
+    padding: 8px;
+}
+
+td{
+    font-size: 2rem;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #dddddd;
+}
+
+tr:nth-child(even) { /* add color to even table rows */
+    background-color: rgba(206, 228, 207, 0.3);
+}
+
+table td button {
+    padding: 8px;
+    border-radius: 30px; /* add round effect to buttons */
+}
+
+/* FORM STYLING */
+
+
+form {
+    width: 50rem;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(206, 228, 207, 0.3);
+    border: 1px solid #ccc;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-top: 10px;
+    display: block;
+}
+
+input[type="text"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    font-size: 1.6rem;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+footer{
+    background-color: rgba(206, 228, 207, 0.3);
+    min-height: 6vh; /* removes white space at end of page */
+    vertical-align: middle;
+    text-align: center;
+}
